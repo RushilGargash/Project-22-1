@@ -61,7 +61,7 @@ function keyPressed() {
  if (keyCode === DOWN_ARROW) {
     // Look at the hints in the document and understand how to make the package body fall only on
    
-  Matter.Body.setStatic(packageSprite,false);
+  Matter.Body.setStatic(packageBody,false);
 
 packageSprite=createSprite(width/2, 80, 10,10);
 packageSprite.addImage(packageIMG)
